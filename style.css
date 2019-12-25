@@ -135,5 +135,11 @@ span:hover:before {
 #_181,
 #_034 {
     display: none;
-    
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        width: 90vw;
+        height: 80vh;
+    }
 }
