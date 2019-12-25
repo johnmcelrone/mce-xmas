@@ -170,7 +170,7 @@ $(document).ready(function () {
 
 
     $('#password').focusin(function () {
-        $('#form').css('border', '1px solid var(--blue');
+        $('#form').css('border', '1px solid var(--blue)');
 
         // $("h1").animate({
         //     fontSize: '18px',
