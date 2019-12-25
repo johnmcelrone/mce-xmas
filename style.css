@@ -1,0 +1,131 @@
+/* @import url(https://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+} */
+
+:root {
+    --dark: #041e3a;
+    --pink: rgba(255,55,95,1);
+    --red: rgba(255,59,48,1);
+    --orange: rgba(255,149,0,1);
+    --yellow: rgba(255,204,0,1);
+    --green: rgba(48,209,88,1);
+    --teal: rgba(90,200,250,1);
+    --blue: rgba(10,122,255,1);
+    --indigo: rgba(88,86,214,1);
+    --purple: rgba(191,90,242,1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+textarea, select, input, button { outline: none; }
+
+
+h1 {
+    font-size: 32px;
+    /* width: 70vw; */
+    margin-bottom: 32px;
+    text-align: center;
+    color: var(--dark);
+    transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    border: 1px solid rgba(0,0,0,0.14);
+    font-size: 14px;
+    width: 70vw;
+    max-width: 500px;
+}
+
+#submit {
+    background: none;
+    border: none;
+    height: 100%;
+    margin-left: -4px;
+    padding: 20px;
+    font-size: inherit;
+    color: var(--blue);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+
+span:before {
+    content: "\f190";
+    color: var(--blue);
+    font-family: 'Material-Design-Iconic-Font', sans-serif;
+}
+
+span:hover:before {
+    content: "\f18f";
+}
+
+#password {
+    padding: 20px;
+    height: 100%;
+    border: none;
+    font-size: inherit;
+}
+
+#password:focus > #form {
+    border: 1px solid var(--blue);
+}
+
+#password::placeholder {
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+}
+
+
+
+
+
+
+
+
+
+
+#key {
+    width: 25vw;
+    max-width: 150px;
+    margin-bottom: 64px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* keycode visibility*/
+#_670,
+#_228,
+#_942,
+#_528,
+#_499,
+#_181,
+#_034 {
+    display: none;
+    
+}
