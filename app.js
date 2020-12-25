@@ -155,7 +155,7 @@ $(document).ready(function () {
 
         // erin
         else if ($('#password').val() == '942') {
-            window.location.href = 'https://wpunj.edu/test/john-test/erin-skincare.pdf';
+            window.location.href = '/ends/erin-skincare.pdf';
             return false;
         }
 
