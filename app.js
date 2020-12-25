@@ -155,7 +155,7 @@ $(document).ready(function () {
 
         // erin
         else if ($('#password').val() == '942') {
-            window.location.href = './ends/erin.html';
+            window.location.href = 'Erin-skin-care.pdf';
             return false;
         }
 
