@@ -155,7 +155,7 @@ $(document).ready(function () {
 
         // erin
         else if ($('#password').val() == '942') {
-            window.location.href = '/mce-xmas/ends/erin-skincare.pdf';
+            window.location.href = 'https://johnmcelrone.github.io/mce-xmas/ends/erin-skincare.pdf';
             return false;
         }
 
