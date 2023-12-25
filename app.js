@@ -125,7 +125,7 @@ $(document).ready(function () {
 
         // lindsey
         else if ($('#password').val() == '034') {
-            window.location.href = './ends/lindsey.html';
+            window.location.href = './ends/david.html';
             return false;
         }
 
