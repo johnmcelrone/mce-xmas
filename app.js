@@ -73,7 +73,7 @@ $(document).ready(function () {
             $('#key').css({transform: 'rotate(0deg)', transition: '.75s'});
         }
 
-        // frankie
+        // fucker
         else if ($('#password').val() == '670') {
             // $('#_670').css('display', 'block');
             $('#_670').show(750);
@@ -123,7 +123,7 @@ $(document).ready(function () {
         //     alert('Incorrect Code :(');
         // }
 
-        // lindsey
+        // david
         else if ($('#password').val() == '034') {
             window.location.href = './ends/david.html';
             return false;
