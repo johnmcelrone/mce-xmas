@@ -6,7 +6,7 @@ $(document).ready(function () {
             // $('#_034').css('display', 'block');
             $('#_034').show(750);
             // $('.cls-2').css('fill', 'var(--red');
-            $('.cls-2').css({fill: 'var(--purple)', transition: '.75s'});
+            $('.cls-2').css({fill: 'var(--red)', transition: '.75s'});
             // rotate
             $('#key').css({'-webkit-transform': 'rotate(0deg)', transition: '.75s'});
             $('#key').css({'-moz-transform': 'rotate(0deg)', transition: '.75s'});
