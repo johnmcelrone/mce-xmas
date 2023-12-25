@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
     $("#password").on("change keyup paste click", function () {
-        // lindsey
+        // david
         if ($('#password').val() == '034') {
             // $('#_034').css('display', 'block');
             $('#_034').show(750);
-            // $('.cls-2').css('fill', 'var(--purple');
+            // $('.cls-2').css('fill', 'var(--red');
             $('.cls-2').css({fill: 'var(--purple)', transition: '.75s'});
             // rotate
             $('#key').css({'-webkit-transform': 'rotate(0deg)', transition: '.75s'});
