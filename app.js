@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $("#password").on("change keyup paste click", function () {
-        // david
+        // granny c
         if ($('#password').val() == '034') {
             // $('#_034').css('display', 'block');
             $('#_034').show(750);
@@ -25,7 +25,7 @@ $(document).ready(function () {
             $('#key').css({transform: 'rotate(0deg)', transition: '.75s'});
         }
 
-        // dad
+        // grandpa c
         else if ($('#password').val() == '499') {
             // $('#_499').css('display', 'block');
             $('#_499').show(750);
@@ -49,7 +49,7 @@ $(document).ready(function () {
             $('#key').css({transform: 'rotate(0deg)', transition: '.75s'});
         }
 
-        // naomi
+        // uncle john
         else if ($('#password').val() == '528') {
             // $('#_528').css('display', 'block');
             $('#_528').show(750);
@@ -61,12 +61,12 @@ $(document).ready(function () {
             $('#key').css({transform: 'rotate(0deg)', transition: '.75s'});
         }
 
-        // erin
+        // aunt cathy
         else if ($('#password').val() == '942') {
             // $('#_942').css('display', 'block');
             $('#_942').show(750);
             // $('.cls-2').css('fill', 'var(--pink');
-            $('.cls-2').css({fill: 'var(--pink)', transition: '.75s'});
+            $('.cls-2').css({fill: 'var(--purple)', transition: '.75s'});
             // rotate
             $('#key').css({'-webkit-transform': 'rotate(0deg)', transition: '.75s'});
             $('#key').css({'-moz-transform': 'rotate(0deg)', transition: '.75s'});
@@ -123,9 +123,9 @@ $(document).ready(function () {
         //     alert('Incorrect Code :(');
         // }
 
-        // david
+        // granny c
         else if ($('#password').val() == '034') {
-            window.location.href = './ends/david.html';
+            window.location.href = './ends/granny-c.html';
             return false;
         }
 
@@ -135,9 +135,9 @@ $(document).ready(function () {
             return false;
         }
 
-        // dad
+        // grandpa c
         else if ($('#password').val() == '499') {
-            window.location.href = './ends/dad.html';
+            window.location.href = './ends/grandpa-c.html';
             return false;
         }
 
@@ -147,15 +147,15 @@ $(document).ready(function () {
             return false;
         }
 
-        // naomi
+        // uncle john
         else if ($('#password').val() == '528') {
-            window.location.href = './ends/naomi.html';
+            window.location.href = './ends/uncle-john.html';
             return false;
         }
 
-        // erin
+        // aunt cathy
         else if ($('#password').val() == '942') {
-            window.location.href = 'https://johnmcelrone.github.io/mce-xmas/ends/erin-skincare.pdf';
+            window.location.href = './ends/aunt-cathy.html';
             return false;
         }
 
